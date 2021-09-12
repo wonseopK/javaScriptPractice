@@ -1,0 +1,10 @@
+fieldset{
+  width: 800px;
+  height: 200px;
+}
+#birthY, #birthD{
+  width: 50px;
+}
+form span{
+  color: red;
+}
