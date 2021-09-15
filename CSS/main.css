@@ -38,4 +38,13 @@ div#listGroup .list {
   float: left;
 }
 
+/* Scroll.html */
+
+#badge {
+  position: fixed;
+  top: 132px;
+  right: 12px;
+}
+
+
 
