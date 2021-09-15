@@ -85,3 +85,10 @@ $('#resultBtn').click(function () {
 
   $('#result').html(bloodInfo + hobbyInfo + birthInfo + nameInfo)
 })
+hideList()
+
+function hideList(){
+  $('#list ul li').hide();
+}
+
+

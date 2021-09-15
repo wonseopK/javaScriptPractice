@@ -8,25 +8,39 @@
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <!-- <script defer src="./JS/main.js"></script> -->
   <script defer src="./JS/mainJq.js"></script>
+  <script defer src="./JS/common.js"></script>
   <link rel="stylesheet" href="./CSS/main.css">
-  <title>Document</title>
+  <title>FORMTAG</title>
 </head>
 
 <body>
+  <div id='pracList'>PRACTICE LIST
+    <div id="list">
+      <ul>
+        <li>
+          <a href="/">inputPractice  </a>&nbsp;
+        </li>
+        <li>
+          <a href="./jQueryEvent.html">jQueryEvent </a>&nbsp;
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h1>RADIO CHECKBOX SELECT TEXT BUTTON Practice</h1>
   <form action="">
     <fieldset>
       <legend>radio</legend>
       <h5>Blood Type</h5>
-        <label for="rd1">A형</label>
-        <input type="radio" name="rd" value="A">
-        <label for="rd2">B형</label>
-        <input type="radio" name="rd" value="B">
-        <label for="rd3">AB형</label>
-        <input type="radio" name="rd" value="AB">
-        <label for="rd4">O형</label>
-        <input type="radio" name="rd" value="O">
-        <br>
-        <span id="rfBldType"></span>
+      <label for="rd1">A형</label>
+      <input type="radio" name="rd" value="A">
+      <label for="rd2">B형</label>
+      <input type="radio" name="rd" value="B">
+      <label for="rd3">AB형</label>
+      <input type="radio" name="rd" value="AB">
+      <label for="rd4">O형</label>
+      <input type="radio" name="rd" value="O">
+      <br>
+      <span id="rfBldType"></span>
     </fieldset>
     <fieldset>
       <legend>checkBox</legend>
@@ -64,7 +78,7 @@
       </select>
       <input type="text" id="birthD">
       <br>
-        <span id="rfBirth"></span>
+      <span id="rfBirth"></span>
     </fieldset>
     <fieldset>
       <legend>text</legend>
