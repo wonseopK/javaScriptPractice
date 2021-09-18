@@ -1,0 +1,15 @@
+/* Scroll.html */
+
+body{
+  height: 3000px;
+}
+
+#badge {
+  position: fixed;
+  top: 132px;
+  right: 12px;
+}
+
+.fade-In img {
+  opacity: 0;
+}

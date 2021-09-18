@@ -1,0 +1,7 @@
+div#listGroup .list {
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+  border: 3px solid green;
+  float: left;
+}

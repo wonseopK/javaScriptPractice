@@ -10,41 +10,7 @@ form span{
   color: red;
 }
 
-/* jQueryEvent.html */
-#pracList{
-  padding-left: 20px;
-  padding-top: 5px;
-  font-size: 24px;
-  background-color: orange;
-  display: flex;
-}
-#list ul{
-  display: flex;
-}
 
-#list ul li{
-  list-style: none;
-}
-
-#list ul li a:hover{
-  background-color: green;
-}
-
-div#listGroup .list {
-  width: 200px;
-  height: 100px;
-  margin-left: 20px;
-  border: 3px solid green;
-  float: left;
-}
-
-/* Scroll.html */
-
-#badge {
-  position: fixed;
-  top: 132px;
-  right: 12px;
-}
 
 
 

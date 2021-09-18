@@ -1,0 +1,30 @@
+/* HEADER */
+
+header #pracList{
+  padding-left: 35px;
+  padding-top: 5px;
+  font-size: 24px;
+  background-color: beige;
+  display: flex;
+}
+header #pracList:hover{
+  cursor: pointer;
+}
+header #list ul{
+  display: flex;
+}
+
+header #list ul li{
+  list-style: none;
+}
+
+header #list ul li a:hover{
+  background-color: green;
+}
+
+
+
+header #list ul li a {
+  text-decoration: none;
+  color: darkgreen;
+}
